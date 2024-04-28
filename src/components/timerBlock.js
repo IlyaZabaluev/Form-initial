@@ -1,5 +1,5 @@
 export const TimerBlock = () => {
-	const now = new Date().getFullYear();
+	const year = new Date().getFullYear();
 
-	return <span>{now}</span>;
+	return <span>{year}</span>;
 };
